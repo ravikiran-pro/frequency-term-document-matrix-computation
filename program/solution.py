@@ -48,4 +48,5 @@ if __name__=="__main__":
     total.extend(counter)
     for i in range(len(files)):
         individual_count(files[i],tokens,counter[:])
+    print(total)
     writer(total)
